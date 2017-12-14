@@ -1,0 +1,22 @@
+.color-grey{ 
+  color: #555555;
+}
+
+.content-logo i{
+	font-size: 96px;
+}
+
+.great-title{
+  margin: 35px auto;
+  text-align: center;
+  color: #555555;
+} 
+
+.flex-hcenter{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center;
+}
