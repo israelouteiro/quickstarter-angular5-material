@@ -1,5 +1,5 @@
 {
-  "name": "gymou",
+  "name": "QuickAngular",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/core": "^0.4.8",
     "@angular/animations": "^5.1.0",
     "@angular/cdk": "^5.0.1",
     "@angular/common": "^5.0.0",

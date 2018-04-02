@@ -1,0 +1,94 @@
+
+.aspect-ratio-mage{
+  visibility: hidden;
+  width: 100%;
+}
+
+mat-drawer-container{
+  height: 100vh;
+}
+
+mat-list-item{
+  min-width: 250px;
+}
+
+mat-list-item button{
+  width: 100%;
+  height: 50px;
+}
+
+.mat-list-item-content{
+  padding: 0;
+}
+
+.logo-gymou{
+  padding: 100px 0 ;
+}
+
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-button.mat-accent{
+  color: red;
+}
+
+.mat-button.mat-primary, .mat-icon-button.mat-primary{
+  color: blue;
+}
+
+/*  */
+
+
+
+.mleft-10{
+  margin-left: 10px;
+}
+
+.mleft-30{
+  margin-left: 30px;
+}
+
+
+
+.mtop-10{
+  margin-top: 10px;
+}
+
+.mtop-30{
+  margin-top: 30px;
+}
+
+.mtop-50{
+  margin-top: 50px;
+}
+
+.mtop-70{
+  margin-top: 70px;
+}
+
+.mtop-100{
+  margin-top: 100px;
+}
+
+.mtop-150{
+  margin-top: 150px;
+}
+
+.mbottom-30{
+  margin-bottom: 30px;
+}
+.mbottom-50{
+  margin-bottom: 50px;
+}
+.mbottom-60{
+  margin-bottom: 60px;
+}
+.mbottom-70{
+  margin-bottom: 70px;
+}
+.mbottom-80{
+  margin-bottom: 80px;
+}

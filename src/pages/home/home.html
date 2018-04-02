@@ -1,8 +1,35 @@
-<section class="flex-hcenter"> 
-  <div class="container">
-    <h1 class="text-center great-title">Welcome to Angular 5</h1>
-    <h3 class="text-center color-grey">With Material Design Embeded</h3>
-    <p>&nbsp;</p> 
-    <h4 class="text-center color-grey">Enjoy and Contribute</h4> 
-  </div>
-</section>
+<mat-drawer-container autosize>
+  <mat-drawer #drawer mode="side">
+    <side-menu></side-menu>
+  </mat-drawer>
+
+        <mat-toolbar color="primary">
+          <mat-toolbar-row>
+            <button mat-icon-button>
+              <mat-icon class="md-24" aria-label="Toggle Menu"
+              (click)="drawer.toggle()">
+                menu
+              </mat-icon>
+            </button>
+            <header></header>
+          </mat-toolbar-row>
+        </mat-toolbar>
+
+        <!-- Page Content -->
+
+          <section class="container mtop-30 no-paddings">
+            <div class="flex-hcenter">
+              <h1 class="text-center great-title">Welcome to Angular 5</h1>
+              <h3 class="text-center color-grey">With Material Design Embeded</h3>
+              <p>&nbsp;</p>
+              <h4 class="text-center color-grey">Enjoy and Contribute</h4>
+            </div>
+          </section>
+
+        <!-- /Page Content -->
+
+    <footer></footer>
+
+</mat-drawer-container>
+
+
